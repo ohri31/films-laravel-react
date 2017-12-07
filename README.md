@@ -2,7 +2,8 @@
 
 <ul>
   <li>Clone the repository</li>
-  <li>Create database called "codeline"</li>
+  <li>Setup your .env file with proper data</li>
+  <li>Create database called the same sa DB in .evn</li>
   <li><code>cd films/films-api</code></li>
   <li><code>php artisan key generate</code></li>
   <li><code>php artisan make:migration --seed</code></li>

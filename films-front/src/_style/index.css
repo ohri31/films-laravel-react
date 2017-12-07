@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fefefe;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Menu */
+nav#mainNav {
+    background: #24292e;
+    padding: 15px;
+
+}
+
+.mainNav-heading {
+    font-size: 20px;
+    color: #fefefe;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.mainNav-heading:hover {
+    color: #fefefe!important;
+    opacity: 0.7;
+}
+
+.mainNav-heading blue {
+    color: #60b3ff;
+}
+
+.mainNav-links li a {
+    font-size: 14px;
+    color:#fefefe;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.mainNav-links li a:hover {
+    background: transparent!important;
+    opacity: 0.3;
+}
